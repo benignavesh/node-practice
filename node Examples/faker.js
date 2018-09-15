@@ -1,0 +1,8 @@
+var faker = require('faker');
+
+for(i=0;i<10;i++)
+{
+    var randomprod = faker.commerce.productName();
+    var randomPrice = faker.commerce.price();
+    console.log(randomprod + " - $" + randomPrice);
+}
